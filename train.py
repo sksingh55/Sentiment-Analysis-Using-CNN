@@ -227,7 +227,6 @@ if __name__ == "__main__":
     parser.add_argument('--chunksize', type=int, default=50000)
     parser.add_argument('--encoding', type=str, default='ISO-8859-1')
     parser.add_argument('--steps', nargs='+', default=['lower'])
-
     parser.add_argument('--alphabet', type=str,default="""abcdefghijklmnopqrstuvwxyz0123456789,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}""")
     parser.add_argument('--number_of_characters', type=int, default=68)
     parser.add_argument('--extra_characters', type=str, default="")
