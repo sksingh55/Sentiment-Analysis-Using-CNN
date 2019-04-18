@@ -145,7 +145,7 @@ def run(args, both_cases=False):
     print("6 :-> ",training_generator)
 
     validation_generator = DataLoader(validation_set, **validation_params)
-    print("7 :-> " validation_generator)
+    print("7 :-> " ,validation_generator)
 
     #passing args to src.scc_model
     model = CharacterLevelCNN(args)
