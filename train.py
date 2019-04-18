@@ -235,7 +235,7 @@ if __name__ == "__main__":
     parser.add_argument('--size', type=str,choices=['small', 'large'], default='small')
     parser.add_argument('--max_length', type=int, default=150)
     parser.add_argument('--number_of_classes', type=int, default=2)
-    parser.add_argument('--epochs', type=int, default=10)
+    parser.add_argument('--epochs', type=int, default=1000)
     parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--optimizer', type=str,choices=['adam', 'sgd'], default='sgd')
     parser.add_argument('--learning_rate', type=float, default=0.01)
